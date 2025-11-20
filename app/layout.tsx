@@ -31,7 +31,7 @@ export default function RootLayout({
         <header className="flex flex-col items-center">
           <h1>React & Next.js</h1>
           <nav>
-            <ul className="flex gap-2" >
+            <ul className="flex gap-4 list-none m-0 p-0" >
               <li><Link href ="/">Intro</Link></li>
               <li><Link href ="/sobre">Sobre</Link></li>
               <li><Link href = "/projetos">projetos</Link></li>
